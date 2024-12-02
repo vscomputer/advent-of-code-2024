@@ -174,7 +174,7 @@ TEST(ComparesLocations, GetTotalDistance_TestFile_SampleDistanceIsCorrect)
 	EXPECT_EQ(result, 11);
 }
 
-TEST(ComparesLocations, GetTotalDistance_ActualFile_SampleDistanceIsCorrect)
+TEST(ComparesLocations, DISABLED_GetTotalDistance_ActualFile_SampleDistanceIsCorrect)
 {
 	ComparesLocations subject;
 	subject.LoadUnsortedLists("C:\\Projects\\Git\\advent-of-code-2024-inputs\\day-1-actual.txt");
@@ -196,7 +196,7 @@ TEST(ComparesLocations, GetSimilarity_TestFile_SampleSimilarityIsCorrect)
 	EXPECT_EQ(result, 31);
 }
 
-TEST(ComparesLocations, GetSimilarity_ActualFile_SampleSimilarityIsCorrect)
+TEST(ComparesLocations, DISABLED_GetSimilarity_ActualFile_SampleSimilarityIsCorrect)
 {
 	ComparesLocations subject;
 	subject.LoadUnsortedLists("C:\\Projects\\Git\\advent-of-code-2024-inputs\\day-1-actual.txt");
